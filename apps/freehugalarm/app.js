@@ -25,6 +25,6 @@ var currImg = 0;
 g.clear();
 drawImg(currImg);
 setInterval(function () {
-  currImg = (currImg + 1) % imgs.length;
+  currImg = (currImg + 1) % images.length;
   drawImg(currImg);
 }, 200);
